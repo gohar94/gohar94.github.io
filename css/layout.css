@@ -286,12 +286,14 @@ ul#nav li.current a { color: #F06000; }
     width: 150px;
     height: 200px;
     padding-left: 10px;
+    text-align: center;
 }
 
 #resume .lums-pic {
     width: 200px;
     height: 150px;
     padding-right: 30px;
+    text-align: center;
 }
 
 /*----------------------------------------------*/
