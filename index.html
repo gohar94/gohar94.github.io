@@ -1,53 +1,282 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Gohar</title>
+    <meta name="description" content="Gohar Irfan Chaudhry's Personal Website">
+    <meta name="author" content="Gohar Irfan Chaudhry">
+    <meta name="keywords" content="Gohar Irfan Chaudhry, LUMS, UIUC, Computer Science">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Gohar Irfan</title>
-  </head>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-  <body>
+    <!-- Script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
 
-    <header>
-      <div class="container">
-        <h1>Gohar Irfan Chaudhry</h1>
-        <section id="downloads">
-          <h2>goharirfan94 [at] gmail [dot] com</h2>
-          <h2><a href="https://twitter.com/gohar94">Twitter - @gohar94</a></h2>
-          <h2><a href="http://blog.goharirfan.me">Blog</a></h2>
-          <h2><a href="http://publish.illinois.edu/goharirfan/">UIUC Blog</a></h2>
-          <a href="https://github.com/gohar94" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/uiuc.ico" >
+    <link rel="bookmark" href="images/uiuc.ico">
+
+    <!-- Google Analytics
+    ================================================== -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-77441567-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Header
+    ================================================== -->
+    <header id="home">
+
+        <nav id="nav-wrap">
+
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Résumé</a></li>
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul> <!-- end #nav -->
+
+        </nav> <!-- end #nav-wrap -->
+
+        <div class="row banner">
+            <div class="banner-text">
+                <h1 class="responsive-headline">I'm Gohar.</h1>
+                <h3>Undergraduate <span>Computer Science</span> student @ <br /> <span>Lahore University of Management Sciences (LUMS)</span> <br /> </h3>
+                <hr />
+                <ul class="social">
+                   <li><a href="https://www.facebook.com/gohar.irfan"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="https://twitter.com/gohar94"><i class="fa fa-twitter"></i></a></li>
+                   <li><a href="https://github.com/gohar94"><i class="fa fa-github"></i></a></li>
+                   <li><a href="http://lnkdin.me/gohar"><i class="fa fa-linkedin"></i></a></li>
+                   <li><a href="https://www.instagram.com/goharirfan94/"><i class="fa fa-instagram"></i></a></li>
+                   <li><a href="http://publish.illinois.edu/goharirfan/"><i class="fa fa-university"></i></a></li>
+                   <li><a href="http://blog.goharirfan.me"><i class="fa fa-pencil"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p>
+
+    </header> <!-- Header End -->
+
+
+    <!-- About Section
+    ================================================== -->
+    <section id="about">
+
+        <div class="row">
+            <div class="three columns">
+                <img class="profile-pic"  src="images/gohar.jpg" alt="" />
+            </div>
+
+            <div class="nine columns main-col">
+                <h2>About Me</h2>
+
+                <p>My name is Gohar Irfan Chaudhry. I am a final year <span>Computer Science</span> major currently pursuing my Undergraduate degree at <a href="http://lums.edu.pk">LUMS</a>, Pakistan. <br />
+                <!-- In August 2016, I will be enrolling as a graduate student in <span>Master of Science in Computer Science</span> at the <a href="http://cs.illinois.edu/">Department of Computer Science</a>, <a href="http://illinois.edu/">University of Illinois at Urbana-Champaign (UIUC)</a> with my thesis advisor being <a href="http://web.engr.illinois.edu/~caesar/">Professor Matthew Caesar</a>. --> <br /> My research interests broadly span the areas of <span >Networking</span> and <span>Distributed Systems</span>.</p>
+
+                <div class="row">
+                    
+                    <div class="columns latest-news">
+                        <h2>Latest News</h2>
+                        <ul>
+                            <li><em class="date">[Mar 2016]</em><br /> Our work <a href="../MegaVM_Poster.pdf">MegaVM: Redefining Scalability in Datacenters"</a> appears in the poster session of <a href="https://www.usenix.org/conference/nsdi16">NSDI '16</a>.</li>
+                            <!-- <li><a id="more" href="old_news.html" target="_blank">See more</a></li> -->
+                        </ul>
+
+                    </div>
+
+                </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+        </div> <!-- end outer row -->
+
+    </section> <!-- About Section End-->
+
+    <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="twelve columns header-col">
+             <h1><span>Overview</span></h1>
+         </div>
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+              <div class="three columns">
+                  <a href="http://illinois.edu/"><img class="uiuc-pic" src="images/uiuc_logo.png" alt="uiuc_logo" /></a>
+              </div>
+
+               <div class="nine columns">
+
+                  <h3>University of Illinois at Urbana-Champaign</h3>
+                  <h4><a href="http://cs.illinois.edu/">Department of Computer Science</a></h4>
+                  <em class="date">(Will be joining in August 2016.)</em>
+                  <p class="info">Master of Science in Computer Science <span>&bull;</span> <em class="date">June 2018</em>
+                    <ul>
+                      <b><li>Research Assistant:</li></b>
+                      <ul>
+                        <li>Advisor: Professor <a href="http://www.cs.uiuc.edu/~caesar/">Matthew Caesar</a></li>
+                      </ul>
+                      <br/>
+                    </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <br />
+
+           <div class="row item">
+
+             <div class="three columns">
+                 <a href="http://lums.edu.pk/"><img class="lums-pic"  src="images/lums_logo.png" alt="lums_logo" /></a>
+             </div>
+
+              <div class="nine columns">
+              
+                 <h3>Lahore University of Management Sciences</h3>
+                 <h4><a href="http://lums.edu.pk/sbasse/cs/">Department of Computer Science</a></h4>
+                 <p class="info">Bachelor of Science in Computer Science <span>&bull;</span> <em class="date">June 2016</em>
+                   <ul>
+                     <b><li>Dean’s Honor List:</li></b>
+                     <ul>
+                       <li>2013-2014</li>
+                       <li>2014-2015</li>
+                     </ul>
+                     <br/>
+                     <b><li>Teaching Assistant:</li></b>
+                     <ul>
+                       <li>CS200 Introduction to Programming in C++ (2014)</li>
+                       <li>CS382 Network Centric Computing in Java (2014 – 2015)</li>
+                       <li>CS473 Computer and Network Security (2015 - 2016)</li>
+                     </ul>
+                     <br/>
+                     <b><li>Research Projects:</li></b>
+                     <ul>
+                       <li>MegaVM - A Memory Enhancing Framework for Datacenters</li>
+                       <li>Resilient Data Centers</li>
+                       <li>OpenQueue - Dynamically Adjusting Buffer Sizes in OpenFlow Switches</li>
+                       <li>Characterizing Seller-Driven Black-Hat Marketplaces</li>
+                     </ul>
+                   </ul>
+                 </p>
+
+              </div>
+
+           </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <div class="row education">
+        <div class="twelve columns header-col">
+             <h1><span>Download Résumé</span></h1>
+             <br />
+             <div class="download">
+               <a class="button" href="../Gohar_CV.pdf"><i class="fa fa-download"></i> Detailed</a>
+               <a class="button" href="../Gohar_CV_Jobs.pdf"><i class="fa fa-download"></i> Compact</a>
+             </div>
+         </div>
       </div>
-    </header>
 
-    <div class="container">
-      <section id="main_content">
-        <h2>CV</h2>
-        <p><a href="../Gohar_CV.pdf">View my CV</a> [Detailed]</p>
-        <p><a href="../Gohar_CV_Jobs.pdf">View my CV</a> [Compact]</p>
-        <br>
-        <h2>Updates</h2>
-        <p>Our work <a href="http://web.engr.illinois.edu/~tahir2/posters/Mega-VM%20Poster%20Draft.pdf">Mega-VM</a> appears in the poster session of <a href="https://www.usenix.org/conference/nsdi16">NSDI '16</a></p>
-        <br>
-        <h2>Projects</h2>
-        <p><a href="http://arxiv.org/pdf/1505.01637v1.pdf">Characterizing Seller-Driven Black-Hat Marketplaces</a></p>
-        <p><a href="../openqueue.pdf">OpenQueue (Buffer Management using SDN)</a></p>
-        <p><a href="../twitterpersonality.pdf">College Hunter - Using Twitter Data to Suggest Colleges</a></p>
-        <br>
-        <h2>Press Coverage</h2>
-        <h3>PakSaaf</h3>
-        <p><a href="http://www.dawn.com/news/1083031/using-it-to-resolve-civic-issues">Dawn</a></p>
-        <p><a href="http://tribune.com.pk/story/663806/hackathon-concludes-with-web-solutions/">The Express Tribune</a></p>
-        <p><a href="http://pasha.org.pk/2014/02/04/events/psha-supports-lahore-civic-hackathon-2014-code-for-pakistan/"</a>P@SHA</p>
-      </section>
-    </div>
+   </section> <!-- Resume Section End-->
 
-  </body>
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+         </div>
+
+         <div class="row">
+
+            <div class="seven columns contact-details push-2">
+
+                <h1>Contact Details</h1>
+                <span>Feel free to email me!</span><br />
+                <span><a href="mailto:goharirfan94@gmail.com" target="_blank">goharirfan94 AT gmail DOT com</a><br><br>
+                <br /><br />
+
+            </div>
+
+        </div> <!-- end row -->
+
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+        <br />
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>2016 &copy; Gohar Irfan Chaudhry</li>
+            </ul>
+
+        </div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
