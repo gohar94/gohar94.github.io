@@ -294,6 +294,10 @@ ul#nav li.current a { color: #F06000; }
     padding-right: 15px;
 }
 
+#resume .cloudera-pic {
+    padding-right: 15px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
