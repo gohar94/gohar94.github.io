@@ -1,4 +1,3 @@
-# gohar94.github.io
-Github Page
+# Website
 
 [http://goharirfan.me](http://goharirfan.me)
